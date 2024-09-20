@@ -26,8 +26,14 @@
 }
 
 p {
-  font-size: 18px;
-  max-width: 800px;
+  font-size: 22px;
+  max-width: 900px;
   margin: 0 auto;
   line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.texto {
+  background-color: #1B1B1B;
+  padding: 60px;
 }
