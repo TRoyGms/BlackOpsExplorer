@@ -1,11 +1,36 @@
 footer {
-  background-color: #1a1a1a;
+  padding-top: 12vb;
+  background-color: #000000;
   padding: 20px;
-  text-align: center;
-  font-size: 14px;
+  text-align: center; /* Centramos el contenido del footer */
 }
 
-footer p {
-  margin: 5px 0;
-  color: #ccc;
+p {
+  font-size: 2.2vb;
+  margin: 1.5vb 0; /* Reduce los márgenes entre párrafos para evitar tanto espacio */
+  color: #9D9D9D;
+  padding: 20px;
+
+  text-align: center; /* Centramos el texto de cada párrafo */
 }  
+
+hr {
+  border: none; /* Elimina el borde predeterminado */
+  height: 1px; /* Ajusta el grosor de la línea */
+  background-color: #ffffff; /* Define el color de fondo */
+  width: 90%; /* Asegura que la línea se extienda a lo ancho */
+  margin: 20px auto; /* Asegura que el espaciado sea uniforme */
+}
+
+.texto_cods {
+  margin: 0 auto; /* Elimina márgenes grandes y centra */
+  width: 90%;
+  text-align: center; /* Asegura que el texto también esté centrado */
+}
+
+.company-logos img {
+  max-width: 80%; /* Ajusta el tamaño de la imagen de logos */
+  height: auto;
+  margin: 20px auto; /* Centra la imagen de logos */
+  display: block; /* Asegura que la imagen se comporte como un bloque */
+}
